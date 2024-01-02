@@ -6,7 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Форма обратной связи</h1>
+  <form id="feedbackForm">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="message">Сообщение:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Отправить</button>
+  </form>
+  <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
